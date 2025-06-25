@@ -20,3 +20,13 @@ Imagine the use case where a wireless charger has the Tx Coil and the mobile pho
 There are many mobile phone vendors in the world. Each has a different battery type and different charging properties. Hence, the Tx should be capable of knowing the mobile battery's power requirements. This is possible if the Rx and Tx communicate. The WPT (also called `Qi`) protocol defines the communication between Tx and Rx. The transmitter uses ASK (Amplitude Shift Keying) for transmitting its data at a bit rate of 4 milliseconds. The receiver uses FSK (Frequency Shift Keying) at a bit rate of 4 microseconds.
 
 Now imagine that if an unintended metal object with magnetic properties (say a hair clip, a coin, or a paper clip) comes into the region of Tx influence, these objects experience a rise in temperature as a means to dissipate the electrical energy (loss of energy). Such unintended objects are called foreign objects [FO]. FO detection or `FOD` is a very interesting component of WPT.
+
+These are the major components of WPT: 
+- Power Transfer
+- Communication
+- FOD
+- Optimization
+
+We'll see these items in my future posts. 
+
+
